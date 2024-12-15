@@ -1,0 +1,50 @@
+/* Additional styles for the home page can be added here */
+body {
+  font-family: "Arial", sans-serif;
+  /* background-color: #000; */
+  margin: 0;
+  color: #d90f0f;
+  background: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pxfuel.com%2Fen%2Fquery%3Fq%3Dchatbot&psig=AOvVaw0o6kCIdqvSphhuVea8qwCM&ust=1709099781599000&source=images&cd=vfe&opi=89978449&ved=2ahUKEwjun5v86sqEAxXdaGwGHSJNC-kQjRx6BAgAEBc");
+  height: 100vh;
+}
+.user-icon{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+header {
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+.welcome-section {
+  padding: 50px;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.chatbot-button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 15px 30px;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-bottom: 100px;
+}
+
+.chatbot-button:hover {
+  background-color: #45a049;
+}
